@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(int ascii)
+int	ft_isprint(int c)
 {
-	if (ascii >= 32 && ascii <= 126)
+	if (c >= 32 && c <= 126)
 		return (1);
 	return (0);
 }

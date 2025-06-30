@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int ascii)
+int	ft_isalpha(int c)
 {
-	if (('A' <= ascii && 'Z' >= ascii) || ('a' <= ascii && 'z' >= ascii))
+	if (('A' <= c && 'Z' >= c) || ('a' <= c && 'z' >= c))
 		return (1);
 	return (0);
 }
